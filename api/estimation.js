@@ -39,8 +39,7 @@ module.exports = (req, res) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader("Content-Type", "application/json");
 
-  const apiKey = req.headers["x-api-key"] || req.query.api_key;
-  if (!apiKey) return res.status(401).json({ error: "Clé API manquante" });
+// Auth gérée par RapidAPI
 
   const { ville, surface, type, etat } = req.query;
   if (!ville || !surface) {
