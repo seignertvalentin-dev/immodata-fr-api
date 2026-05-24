@@ -1,0 +1,15 @@
+	
+version	2
+routes	
+0	
+src	"/"
+dest	"/api/index.js"
+1	
+src	"/api/prix-m2"
+dest	"/api/prix-m2.js"
+2	
+src	"/api/estimation"
+dest	"/api/estimation.js"
+3	
+src	"/api/rentabilite"
+dest	"/api/rentabilite.js"
